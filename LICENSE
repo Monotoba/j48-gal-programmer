@@ -1,0 +1,27 @@
+J48 GAL / PAL Programmer
+Copyright (C) 2026 R. Morgan (Monotoba)
+
+This project uses two licenses. The full texts are in the LICENSES/ folder.
+
+Hardware: CERN-OHL-S-2.0
+  Everything under hardware/ (schematics, drawings, KiCad files, and the
+  scripts that generate them) is licensed under the CERN Open Hardware
+  Licence Version 2 - Strongly Reciprocal. See LICENSES/CERN-OHL-S-2.0.txt.
+
+  Source location: https://github.com/Monotoba/j48-gal-programmer
+
+  This source describes Open Hardware and is distributed WITHOUT ANY EXPRESS
+  OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND
+  FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-S v2 for
+  applicable conditions.
+
+Software: GPL-3.0-only
+  Everything under firmware/ and wingman/ is licensed under the GNU General
+  Public License, version 3. See LICENSES/GPL-3.0-only.txt.
+
+  This program is distributed in the hope that it will be useful, but
+  WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+  or FITNESS FOR A PARTICULAR PURPOSE.
+
+Documentation under docs/ is licensed under CERN-OHL-S-2.0 alongside the
+hardware it describes, unless a file says otherwise.
