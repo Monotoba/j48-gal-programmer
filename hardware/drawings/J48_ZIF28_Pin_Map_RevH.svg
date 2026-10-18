@@ -1,0 +1,1159 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2160" height="1538" viewBox="0 0 2160 1538">
+<rect x="0" y="0" width="2160" height="1538" rx="0" fill="#ffffff" stroke="none" stroke-width="0"/>
+<rect x="8" y="8" width="2144" height="1522" rx="0" fill="none" stroke="#000" stroke-width="2"/>
+<text x="30" y="44" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="22" text-anchor="start" font-weight="bold" fill="#000">J48 ZIF-28 socket pin map — every device is head-aligned (chip pin 1 at ZIF pin 1)</text>
+<text x="30" y="66" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="12" text-anchor="start" font-weight="normal" fill="#666">20-pin parts use ZIF 1–10 and 19–28; 24-pin parts use ZIF 1–12 and 17–28; 28-pin parts fill the socket. GND and VCC are switched per size (Rev H).</text>
+<rect x="24" y="82" width="296" height="540" rx="6" fill="none" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="7 5"/>
+<text x="172.0" y="102" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="13" text-anchor="middle" font-weight="bold" fill="#000">22V10 / 20XV10 / ATF750C</text>
+<text x="172.0" y="118" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="middle" font-weight="normal" fill="#666">24-pin</text>
+<rect x="98.0" y="140" width="148.0" height="416" rx="4" fill="#f1f1f1" stroke="#000" stroke-width="1.6"/>
+<rect x="98.0" y="126" width="64" height="10" rx="3" fill="#d9d9d9" stroke="#000" stroke-width="1.2"/>
+<text x="168.0" y="135" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#666">lever</text>
+<rect x="108.0" y="155" width="128.0" height="338" rx="0" fill="#fff3c4" fill-opacity="0.95" stroke="#000" stroke-width="1.8"/>
+<path d="M 163.0 155 A 9 9 0 0 0 181.0 155" fill="none" stroke="#000" stroke-width="1.6"/>
+<circle cx="128.0" cy="164" r="2.6" fill="#000"/>
+<text x="172.0" y="324.0" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="12" text-anchor="middle" font-weight="bold" fill="#555" transform="rotate(-90 172.0 324.0)">GAL22V10</text>
+<rect x="108.0" y="499" width="128.0" height="49" rx="0" fill="none" stroke="#999" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="172.0" y="527.5" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="middle" font-weight="normal" fill="#999">empty</text>
+<circle cx="120.0" cy="170" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="90.0" y="174" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">1</text>
+<text x="130.0" y="174" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">1</text>
+<text x="64.0" y="174" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="normal" fill="#999">-</text>
+<circle cx="120.0" cy="198" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="90.0" y="202" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">2</text>
+<text x="130.0" y="202" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">2</text>
+<text x="64.0" y="202" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#b3261e">EDIT</text>
+<circle cx="120.0" cy="226" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="90.0" y="230" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">3</text>
+<text x="130.0" y="230" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">3</text>
+<text x="64.0" y="230" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#7b2fa8">PV</text>
+<circle cx="120.0" cy="254" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="90.0" y="258" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">4</text>
+<text x="130.0" y="258" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">4</text>
+<text x="64.0" y="258" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a4fa0">RA0</text>
+<circle cx="120.0" cy="282" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="90.0" y="286" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">5</text>
+<text x="130.0" y="286" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">5</text>
+<text x="64.0" y="286" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a4fa0">RA1</text>
+<circle cx="120.0" cy="310" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="90.0" y="314" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">6</text>
+<text x="130.0" y="314" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">6</text>
+<text x="64.0" y="314" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a4fa0">RA2</text>
+<circle cx="120.0" cy="338" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="90.0" y="342" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">7</text>
+<text x="130.0" y="342" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">7</text>
+<text x="64.0" y="342" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a4fa0">RA3</text>
+<circle cx="120.0" cy="366" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="90.0" y="370" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">8</text>
+<text x="130.0" y="370" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">8</text>
+<text x="64.0" y="370" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a4fa0">RA4</text>
+<circle cx="120.0" cy="394" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="90.0" y="398" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">9</text>
+<text x="130.0" y="398" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">9</text>
+<text x="64.0" y="398" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a4fa0">RA5</text>
+<circle cx="120.0" cy="422" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="90.0" y="426" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">10</text>
+<text x="130.0" y="426" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">10</text>
+<text x="64.0" y="426" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a7f37">SCLK</text>
+<circle cx="120.0" cy="450" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="90.0" y="454" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">11</text>
+<text x="130.0" y="454" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">11</text>
+<text x="64.0" y="454" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a7f37">DIN</text>
+<circle cx="120.0" cy="478" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="90.0" y="482" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">12</text>
+<text x="130.0" y="482" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">12</text>
+<text x="64.0" y="482" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#444">GND*</text>
+<circle cx="120.0" cy="506" r="5" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="90.0" y="510" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">13</text>
+<circle cx="120.0" cy="534" r="5" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="90.0" y="538" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">14</text>
+<circle cx="224.0" cy="534" r="5" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="254.0" y="538" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">15</text>
+<circle cx="224.0" cy="506" r="5" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="254.0" y="510" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">16</text>
+<circle cx="224.0" cy="478" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="254.0" y="482" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">17</text>
+<text x="214.0" y="482" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">13</text>
+<text x="280.0" y="482" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#1a7f37">STR</text>
+<circle cx="224.0" cy="450" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="254.0" y="454" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">18</text>
+<text x="214.0" y="454" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">14</text>
+<text x="280.0" y="454" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#1a7f37">DOUT</text>
+<circle cx="224.0" cy="422" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="254.0" y="426" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">19</text>
+<text x="214.0" y="426" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">15</text>
+<text x="280.0" y="426" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="224.0" cy="394" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="254.0" y="398" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">20</text>
+<text x="214.0" y="398" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">16</text>
+<text x="280.0" y="398" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="224.0" cy="366" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="254.0" y="370" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">21</text>
+<text x="214.0" y="370" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">17</text>
+<text x="280.0" y="370" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="224.0" cy="338" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="254.0" y="342" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">22</text>
+<text x="214.0" y="342" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">18</text>
+<text x="280.0" y="342" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="224.0" cy="310" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="254.0" y="314" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">23</text>
+<text x="214.0" y="314" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">19</text>
+<text x="280.0" y="314" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="224.0" cy="282" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="254.0" y="286" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">24</text>
+<text x="214.0" y="286" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">20</text>
+<text x="280.0" y="286" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="224.0" cy="254" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="254.0" y="258" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">25</text>
+<text x="214.0" y="258" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">21</text>
+<text x="280.0" y="258" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="224.0" cy="226" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="254.0" y="230" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">26</text>
+<text x="214.0" y="230" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">22</text>
+<text x="280.0" y="230" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="224.0" cy="198" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="254.0" y="202" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">27</text>
+<text x="214.0" y="202" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">23</text>
+<text x="280.0" y="202" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="224.0" cy="170" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="254.0" y="174" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">28</text>
+<text x="214.0" y="174" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">24</text>
+<text x="280.0" y="174" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#b3261e">VCC*</text>
+<text x="36" y="598" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#444">* GND: ZIF 12 via Q4 (U9 Q4)</text>
+<text x="36" y="611" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#444">* VCC: ZIF 28 via Q6 (U9 Q6)</text>
+<rect x="326" y="82" width="296" height="540" rx="6" fill="none" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="7 5"/>
+<text x="474.0" y="102" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="13" text-anchor="middle" font-weight="bold" fill="#000">20V8</text>
+<text x="474.0" y="118" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="middle" font-weight="normal" fill="#666">24-pin</text>
+<rect x="400.0" y="140" width="148.0" height="416" rx="4" fill="#f1f1f1" stroke="#000" stroke-width="1.6"/>
+<rect x="400.0" y="126" width="64" height="10" rx="3" fill="#d9d9d9" stroke="#000" stroke-width="1.2"/>
+<text x="470.0" y="135" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#666">lever</text>
+<rect x="410.0" y="155" width="128.0" height="338" rx="0" fill="#fff3c4" fill-opacity="0.95" stroke="#000" stroke-width="1.8"/>
+<path d="M 465.0 155 A 9 9 0 0 0 483.0 155" fill="none" stroke="#000" stroke-width="1.6"/>
+<circle cx="430.0" cy="164" r="2.6" fill="#000"/>
+<text x="474.0" y="324.0" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="12" text-anchor="middle" font-weight="bold" fill="#555" transform="rotate(-90 474.0 324.0)">GAL20V8</text>
+<rect x="410.0" y="499" width="128.0" height="49" rx="0" fill="none" stroke="#999" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="474.0" y="527.5" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="middle" font-weight="normal" fill="#999">empty</text>
+<circle cx="422.0" cy="170" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="392.0" y="174" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">1</text>
+<text x="432.0" y="174" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">1</text>
+<text x="366.0" y="174" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="normal" fill="#999">-</text>
+<circle cx="422.0" cy="198" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="392.0" y="202" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">2</text>
+<text x="432.0" y="202" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">2</text>
+<text x="366.0" y="202" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#b3261e">EDIT</text>
+<circle cx="422.0" cy="226" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="392.0" y="230" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">3</text>
+<text x="432.0" y="230" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">3</text>
+<text x="366.0" y="230" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a4fa0">RA1</text>
+<circle cx="422.0" cy="254" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="392.0" y="258" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">4</text>
+<text x="432.0" y="258" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">4</text>
+<text x="366.0" y="258" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a4fa0">RA2</text>
+<circle cx="422.0" cy="282" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="392.0" y="286" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">5</text>
+<text x="432.0" y="286" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">5</text>
+<text x="366.0" y="286" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a4fa0">RA3</text>
+<circle cx="422.0" cy="310" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="392.0" y="314" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">6</text>
+<text x="432.0" y="314" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">6</text>
+<text x="366.0" y="314" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="normal" fill="#999">-</text>
+<circle cx="422.0" cy="338" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="392.0" y="342" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">7</text>
+<text x="432.0" y="342" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">7</text>
+<text x="366.0" y="342" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="normal" fill="#999">-</text>
+<circle cx="422.0" cy="366" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="392.0" y="370" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">8</text>
+<text x="432.0" y="370" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">8</text>
+<text x="366.0" y="370" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a4fa0">RA4</text>
+<circle cx="422.0" cy="394" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="392.0" y="398" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">9</text>
+<text x="432.0" y="398" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">9</text>
+<text x="366.0" y="398" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a4fa0">RA5</text>
+<circle cx="422.0" cy="422" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="392.0" y="426" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">10</text>
+<text x="432.0" y="426" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">10</text>
+<text x="366.0" y="426" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a7f37">SCLK</text>
+<circle cx="422.0" cy="450" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="392.0" y="454" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">11</text>
+<text x="432.0" y="454" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">11</text>
+<text x="366.0" y="454" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a7f37">DIN</text>
+<circle cx="422.0" cy="478" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="392.0" y="482" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">12</text>
+<text x="432.0" y="482" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">12</text>
+<text x="366.0" y="482" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#444">GND*</text>
+<circle cx="422.0" cy="506" r="5" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="392.0" y="510" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">13</text>
+<circle cx="422.0" cy="534" r="5" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="392.0" y="538" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">14</text>
+<circle cx="526.0" cy="534" r="5" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="556.0" y="538" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">15</text>
+<circle cx="526.0" cy="506" r="5" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="556.0" y="510" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">16</text>
+<circle cx="526.0" cy="478" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="556.0" y="482" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">17</text>
+<text x="516.0" y="482" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">13</text>
+<text x="582.0" y="482" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#1a7f37">STR</text>
+<circle cx="526.0" cy="450" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="556.0" y="454" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">18</text>
+<text x="516.0" y="454" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">14</text>
+<text x="582.0" y="454" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="526.0" cy="422" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="556.0" y="426" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">19</text>
+<text x="516.0" y="426" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">15</text>
+<text x="582.0" y="426" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#1a7f37">DOUT</text>
+<circle cx="526.0" cy="394" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="556.0" y="398" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">20</text>
+<text x="516.0" y="398" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">16</text>
+<text x="582.0" y="398" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="526.0" cy="366" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="556.0" y="370" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">21</text>
+<text x="516.0" y="370" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">17</text>
+<text x="582.0" y="370" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="526.0" cy="338" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="556.0" y="342" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">22</text>
+<text x="516.0" y="342" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">18</text>
+<text x="582.0" y="342" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="526.0" cy="310" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="556.0" y="314" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">23</text>
+<text x="516.0" y="314" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">19</text>
+<text x="582.0" y="314" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="526.0" cy="282" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="556.0" y="286" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">24</text>
+<text x="516.0" y="286" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">20</text>
+<text x="582.0" y="286" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="526.0" cy="254" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="556.0" y="258" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">25</text>
+<text x="516.0" y="258" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">21</text>
+<text x="582.0" y="258" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#1a4fa0">RA0</text>
+<circle cx="526.0" cy="226" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="556.0" y="230" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">26</text>
+<text x="516.0" y="230" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">22</text>
+<text x="582.0" y="230" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#7b2fa8">PV</text>
+<circle cx="526.0" cy="198" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="556.0" y="202" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">27</text>
+<text x="516.0" y="202" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">23</text>
+<text x="582.0" y="202" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="526.0" cy="170" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="556.0" y="174" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">28</text>
+<text x="516.0" y="174" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">24</text>
+<text x="582.0" y="174" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#b3261e">VCC*</text>
+<text x="338" y="598" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#444">* GND: ZIF 12 via Q4 (U9 Q4)</text>
+<text x="338" y="611" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#444">* VCC: ZIF 28 via Q6 (U9 Q6)</text>
+<rect x="628" y="82" width="296" height="540" rx="6" fill="none" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="7 5"/>
+<text x="776.0" y="102" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="13" text-anchor="middle" font-weight="bold" fill="#000">16V8 (incl. ATF16V8B)</text>
+<text x="776.0" y="118" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="middle" font-weight="normal" fill="#666">20-pin, top-justified</text>
+<rect x="702.0" y="140" width="148.0" height="416" rx="4" fill="#f1f1f1" stroke="#000" stroke-width="1.6"/>
+<rect x="702.0" y="126" width="64" height="10" rx="3" fill="#d9d9d9" stroke="#000" stroke-width="1.2"/>
+<text x="772.0" y="135" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#666">lever</text>
+<rect x="712.0" y="155" width="128.0" height="282" rx="0" fill="#fff3c4" fill-opacity="0.95" stroke="#000" stroke-width="1.8"/>
+<path d="M 767.0 155 A 9 9 0 0 0 785.0 155" fill="none" stroke="#000" stroke-width="1.6"/>
+<circle cx="732.0" cy="164" r="2.6" fill="#000"/>
+<text x="776.0" y="296.0" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="12" text-anchor="middle" font-weight="bold" fill="#555" transform="rotate(-90 776.0 296.0)">GAL16V8</text>
+<rect x="712.0" y="443" width="128.0" height="105" rx="0" fill="none" stroke="#999" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="776.0" y="499.5" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="middle" font-weight="normal" fill="#999">empty</text>
+<circle cx="724.0" cy="170" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="694.0" y="174" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">1</text>
+<text x="734.0" y="174" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">1</text>
+<text x="668.0" y="174" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="normal" fill="#999">-</text>
+<circle cx="724.0" cy="198" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="694.0" y="202" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">2</text>
+<text x="734.0" y="202" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">2</text>
+<text x="668.0" y="202" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#b3261e">EDIT</text>
+<circle cx="724.0" cy="226" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="694.0" y="230" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">3</text>
+<text x="734.0" y="230" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">3</text>
+<text x="668.0" y="230" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a4fa0">RA1</text>
+<circle cx="724.0" cy="254" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="694.0" y="258" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">4</text>
+<text x="734.0" y="258" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">4</text>
+<text x="668.0" y="258" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a4fa0">RA2</text>
+<circle cx="724.0" cy="282" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="694.0" y="286" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">5</text>
+<text x="734.0" y="286" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">5</text>
+<text x="668.0" y="286" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a4fa0">RA3</text>
+<circle cx="724.0" cy="310" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="694.0" y="314" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">6</text>
+<text x="734.0" y="314" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">6</text>
+<text x="668.0" y="314" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a4fa0">RA4</text>
+<circle cx="724.0" cy="338" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="694.0" y="342" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">7</text>
+<text x="734.0" y="342" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">7</text>
+<text x="668.0" y="342" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a4fa0">RA5</text>
+<circle cx="724.0" cy="366" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="694.0" y="370" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">8</text>
+<text x="734.0" y="370" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">8</text>
+<text x="668.0" y="370" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a7f37">SCLK</text>
+<circle cx="724.0" cy="394" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="694.0" y="398" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">9</text>
+<text x="734.0" y="398" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">9</text>
+<text x="668.0" y="398" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a7f37">DIN</text>
+<circle cx="724.0" cy="422" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="694.0" y="426" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">10</text>
+<text x="734.0" y="426" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">10</text>
+<text x="668.0" y="426" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#444">GND*</text>
+<circle cx="724.0" cy="450" r="5" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="694.0" y="454" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">11</text>
+<circle cx="724.0" cy="478" r="5" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="694.0" y="482" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">12</text>
+<circle cx="724.0" cy="506" r="5" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="694.0" y="510" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">13</text>
+<circle cx="724.0" cy="534" r="5" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="694.0" y="538" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">14</text>
+<circle cx="828.0" cy="534" r="5" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="858.0" y="538" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">15</text>
+<circle cx="828.0" cy="506" r="5" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="858.0" y="510" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">16</text>
+<circle cx="828.0" cy="478" r="5" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="858.0" y="482" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">17</text>
+<circle cx="828.0" cy="450" r="5" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="858.0" y="454" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">18</text>
+<circle cx="828.0" cy="422" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="858.0" y="426" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">19</text>
+<text x="818.0" y="426" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">11</text>
+<text x="884.0" y="426" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#1a7f37">STR</text>
+<circle cx="828.0" cy="394" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="858.0" y="398" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">20</text>
+<text x="818.0" y="398" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">12</text>
+<text x="884.0" y="398" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#1a7f37">DOUT</text>
+<circle cx="828.0" cy="366" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="858.0" y="370" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">21</text>
+<text x="818.0" y="370" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">13</text>
+<text x="884.0" y="370" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="828.0" cy="338" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="858.0" y="342" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">22</text>
+<text x="818.0" y="342" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">14</text>
+<text x="884.0" y="342" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="828.0" cy="310" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="858.0" y="314" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">23</text>
+<text x="818.0" y="314" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">15</text>
+<text x="884.0" y="314" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="828.0" cy="282" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="858.0" y="286" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">24</text>
+<text x="818.0" y="286" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">16</text>
+<text x="884.0" y="286" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="828.0" cy="254" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="858.0" y="258" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">25</text>
+<text x="818.0" y="258" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">17</text>
+<text x="884.0" y="258" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="828.0" cy="226" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="858.0" y="230" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">26</text>
+<text x="818.0" y="230" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">18</text>
+<text x="884.0" y="230" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#1a4fa0">RA0</text>
+<circle cx="828.0" cy="198" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="858.0" y="202" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">27</text>
+<text x="818.0" y="202" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">19</text>
+<text x="884.0" y="202" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#7b2fa8">PV</text>
+<circle cx="828.0" cy="170" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="858.0" y="174" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">28</text>
+<text x="818.0" y="174" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">20</text>
+<text x="884.0" y="174" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#b3261e">VCC*</text>
+<text x="640" y="598" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#444">* GND: ZIF 10 via Q1 (U2 Q6)</text>
+<text x="640" y="611" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#444">* VCC: ZIF 28 via Q6 (U9 Q6)</text>
+<rect x="930" y="82" width="296" height="540" rx="6" fill="none" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="7 5"/>
+<text x="1078.0" y="102" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="13" text-anchor="middle" font-weight="bold" fill="#000">18V10</text>
+<text x="1078.0" y="118" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="middle" font-weight="normal" fill="#666">20-pin, top-justified</text>
+<rect x="1004.0" y="140" width="148.0" height="416" rx="4" fill="#f1f1f1" stroke="#000" stroke-width="1.6"/>
+<rect x="1004.0" y="126" width="64" height="10" rx="3" fill="#d9d9d9" stroke="#000" stroke-width="1.2"/>
+<text x="1074.0" y="135" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#666">lever</text>
+<rect x="1014.0" y="155" width="128.0" height="282" rx="0" fill="#fff3c4" fill-opacity="0.95" stroke="#000" stroke-width="1.8"/>
+<path d="M 1069.0 155 A 9 9 0 0 0 1087.0 155" fill="none" stroke="#000" stroke-width="1.6"/>
+<circle cx="1034.0" cy="164" r="2.6" fill="#000"/>
+<text x="1078.0" y="296.0" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="12" text-anchor="middle" font-weight="bold" fill="#555" transform="rotate(-90 1078.0 296.0)">GAL18V10</text>
+<rect x="1014.0" y="443" width="128.0" height="105" rx="0" fill="none" stroke="#999" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="1078.0" y="499.5" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="middle" font-weight="normal" fill="#999">empty</text>
+<circle cx="1026.0" cy="170" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="996.0" y="174" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">1</text>
+<text x="1036.0" y="174" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">1</text>
+<text x="970.0" y="174" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="normal" fill="#999">-</text>
+<circle cx="1026.0" cy="198" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="996.0" y="202" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">2</text>
+<text x="1036.0" y="202" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">2</text>
+<text x="970.0" y="202" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#b3261e">EDIT</text>
+<circle cx="1026.0" cy="226" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="996.0" y="230" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">3</text>
+<text x="1036.0" y="230" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">3</text>
+<text x="970.0" y="230" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a4fa0">RA3</text>
+<circle cx="1026.0" cy="254" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="996.0" y="258" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">4</text>
+<text x="1036.0" y="258" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">4</text>
+<text x="970.0" y="258" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a4fa0">RA4</text>
+<circle cx="1026.0" cy="282" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="996.0" y="286" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">5</text>
+<text x="1036.0" y="286" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">5</text>
+<text x="970.0" y="286" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a4fa0">RA5</text>
+<circle cx="1026.0" cy="310" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="996.0" y="314" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">6</text>
+<text x="1036.0" y="314" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">6</text>
+<text x="970.0" y="314" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a7f37">SCLK</text>
+<circle cx="1026.0" cy="338" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="996.0" y="342" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">7</text>
+<text x="1036.0" y="342" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">7</text>
+<text x="970.0" y="342" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a7f37">DIN</text>
+<circle cx="1026.0" cy="366" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="996.0" y="370" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">8</text>
+<text x="1036.0" y="370" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">8</text>
+<text x="970.0" y="370" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a7f37">STR</text>
+<circle cx="1026.0" cy="394" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="996.0" y="398" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">9</text>
+<text x="1036.0" y="398" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">9</text>
+<text x="970.0" y="398" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a7f37">DOUT</text>
+<circle cx="1026.0" cy="422" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="996.0" y="426" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">10</text>
+<text x="1036.0" y="426" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">10</text>
+<text x="970.0" y="426" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#444">GND*</text>
+<circle cx="1026.0" cy="450" r="5" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="996.0" y="454" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">11</text>
+<circle cx="1026.0" cy="478" r="5" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="996.0" y="482" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">12</text>
+<circle cx="1026.0" cy="506" r="5" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="996.0" y="510" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">13</text>
+<circle cx="1026.0" cy="534" r="5" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="996.0" y="538" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">14</text>
+<circle cx="1130.0" cy="534" r="5" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="1160.0" y="538" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">15</text>
+<circle cx="1130.0" cy="506" r="5" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="1160.0" y="510" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">16</text>
+<circle cx="1130.0" cy="478" r="5" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="1160.0" y="482" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">17</text>
+<circle cx="1130.0" cy="450" r="5" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="1160.0" y="454" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">18</text>
+<circle cx="1130.0" cy="422" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1160.0" y="426" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">19</text>
+<text x="1120.0" y="426" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">11</text>
+<text x="1186.0" y="426" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="1130.0" cy="394" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1160.0" y="398" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">20</text>
+<text x="1120.0" y="398" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">12</text>
+<text x="1186.0" y="398" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="1130.0" cy="366" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1160.0" y="370" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">21</text>
+<text x="1120.0" y="370" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">13</text>
+<text x="1186.0" y="370" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="1130.0" cy="338" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1160.0" y="342" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">22</text>
+<text x="1120.0" y="342" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">14</text>
+<text x="1186.0" y="342" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="1130.0" cy="310" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1160.0" y="314" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">23</text>
+<text x="1120.0" y="314" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">15</text>
+<text x="1186.0" y="314" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="1130.0" cy="282" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1160.0" y="286" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">24</text>
+<text x="1120.0" y="286" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">16</text>
+<text x="1186.0" y="286" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#1a4fa0">RA2</text>
+<circle cx="1130.0" cy="254" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1160.0" y="258" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">25</text>
+<text x="1120.0" y="258" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">17</text>
+<text x="1186.0" y="258" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#1a4fa0">RA1</text>
+<circle cx="1130.0" cy="226" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1160.0" y="230" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">26</text>
+<text x="1120.0" y="230" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">18</text>
+<text x="1186.0" y="230" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#1a4fa0">RA0</text>
+<circle cx="1130.0" cy="198" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1160.0" y="202" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">27</text>
+<text x="1120.0" y="202" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">19</text>
+<text x="1186.0" y="202" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#7b2fa8">PV</text>
+<circle cx="1130.0" cy="170" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1160.0" y="174" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">28</text>
+<text x="1120.0" y="174" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">20</text>
+<text x="1186.0" y="174" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#b3261e">VCC*</text>
+<text x="942" y="598" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#444">* GND: ZIF 10 via Q1 (U2 Q6)</text>
+<text x="942" y="611" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#444">* VCC: ZIF 28 via Q6 (U9 Q6)</text>
+<rect x="1232" y="82" width="296" height="540" rx="6" fill="none" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="7 5"/>
+<text x="1380.0" y="102" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="13" text-anchor="middle" font-weight="bold" fill="#000">6001 / 6002</text>
+<text x="1380.0" y="118" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="middle" font-weight="normal" fill="#666">24-pin</text>
+<rect x="1306.0" y="140" width="148.0" height="416" rx="4" fill="#f1f1f1" stroke="#000" stroke-width="1.6"/>
+<rect x="1306.0" y="126" width="64" height="10" rx="3" fill="#d9d9d9" stroke="#000" stroke-width="1.2"/>
+<text x="1376.0" y="135" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#666">lever</text>
+<rect x="1316.0" y="155" width="128.0" height="338" rx="0" fill="#fff3c4" fill-opacity="0.95" stroke="#000" stroke-width="1.8"/>
+<path d="M 1371.0 155 A 9 9 0 0 0 1389.0 155" fill="none" stroke="#000" stroke-width="1.6"/>
+<circle cx="1336.0" cy="164" r="2.6" fill="#000"/>
+<text x="1380.0" y="324.0" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="12" text-anchor="middle" font-weight="bold" fill="#555" transform="rotate(-90 1380.0 324.0)">GAL6001</text>
+<rect x="1316.0" y="499" width="128.0" height="49" rx="0" fill="none" stroke="#999" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="1380.0" y="527.5" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="middle" font-weight="normal" fill="#999">empty</text>
+<circle cx="1328.0" cy="170" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1298.0" y="174" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">1</text>
+<text x="1338.0" y="174" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">1</text>
+<text x="1272.0" y="174" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="normal" fill="#999">-</text>
+<circle cx="1328.0" cy="198" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1298.0" y="202" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">2</text>
+<text x="1338.0" y="202" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">2</text>
+<text x="1272.0" y="202" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#b3261e">EDIT</text>
+<circle cx="1328.0" cy="226" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1298.0" y="230" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">3</text>
+<text x="1338.0" y="230" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">3</text>
+<text x="1272.0" y="230" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="normal" fill="#999">-</text>
+<circle cx="1328.0" cy="254" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1298.0" y="258" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">4</text>
+<text x="1338.0" y="258" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">4</text>
+<text x="1272.0" y="258" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a4fa0">RA0</text>
+<circle cx="1328.0" cy="282" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1298.0" y="286" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">5</text>
+<text x="1338.0" y="286" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">5</text>
+<text x="1272.0" y="286" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a4fa0">RA1</text>
+<circle cx="1328.0" cy="310" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1298.0" y="314" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">6</text>
+<text x="1338.0" y="314" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">6</text>
+<text x="1272.0" y="314" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a4fa0">RA2</text>
+<circle cx="1328.0" cy="338" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1298.0" y="342" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">7</text>
+<text x="1338.0" y="342" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">7</text>
+<text x="1272.0" y="342" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a4fa0">RA3</text>
+<circle cx="1328.0" cy="366" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1298.0" y="370" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">8</text>
+<text x="1338.0" y="370" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">8</text>
+<text x="1272.0" y="370" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a4fa0">RA4</text>
+<circle cx="1328.0" cy="394" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1298.0" y="398" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">9</text>
+<text x="1338.0" y="398" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">9</text>
+<text x="1272.0" y="398" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a4fa0">RA5</text>
+<circle cx="1328.0" cy="422" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1298.0" y="426" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">10</text>
+<text x="1338.0" y="426" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">10</text>
+<text x="1272.0" y="426" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a7f37">SCLK</text>
+<circle cx="1328.0" cy="450" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1298.0" y="454" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">11</text>
+<text x="1338.0" y="454" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">11</text>
+<text x="1272.0" y="454" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a7f37">DIN</text>
+<circle cx="1328.0" cy="478" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1298.0" y="482" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">12</text>
+<text x="1338.0" y="482" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">12</text>
+<text x="1272.0" y="482" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#444">GND*</text>
+<circle cx="1328.0" cy="506" r="5" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="1298.0" y="510" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">13</text>
+<circle cx="1328.0" cy="534" r="5" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="1298.0" y="538" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">14</text>
+<circle cx="1432.0" cy="534" r="5" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="1462.0" y="538" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">15</text>
+<circle cx="1432.0" cy="506" r="5" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="1462.0" y="510" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">16</text>
+<circle cx="1432.0" cy="478" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1462.0" y="482" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">17</text>
+<text x="1422.0" y="482" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">13</text>
+<text x="1488.0" y="482" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#1a7f37">STR</text>
+<circle cx="1432.0" cy="450" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1462.0" y="454" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">18</text>
+<text x="1422.0" y="454" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">14</text>
+<text x="1488.0" y="454" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#1a7f37">DOUT</text>
+<circle cx="1432.0" cy="422" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1462.0" y="426" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">19</text>
+<text x="1422.0" y="426" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">15</text>
+<text x="1488.0" y="426" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="1432.0" cy="394" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1462.0" y="398" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">20</text>
+<text x="1422.0" y="398" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">16</text>
+<text x="1488.0" y="398" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="1432.0" cy="366" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1462.0" y="370" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">21</text>
+<text x="1422.0" y="370" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">17</text>
+<text x="1488.0" y="370" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="1432.0" cy="338" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1462.0" y="342" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">22</text>
+<text x="1422.0" y="342" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">18</text>
+<text x="1488.0" y="342" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="1432.0" cy="310" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1462.0" y="314" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">23</text>
+<text x="1422.0" y="314" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">19</text>
+<text x="1488.0" y="314" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="1432.0" cy="282" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1462.0" y="286" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">24</text>
+<text x="1422.0" y="286" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">20</text>
+<text x="1488.0" y="286" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="1432.0" cy="254" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1462.0" y="258" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">25</text>
+<text x="1422.0" y="258" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">21</text>
+<text x="1488.0" y="258" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="1432.0" cy="226" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1462.0" y="230" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">26</text>
+<text x="1422.0" y="230" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">22</text>
+<text x="1488.0" y="230" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="1432.0" cy="198" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1462.0" y="202" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">27</text>
+<text x="1422.0" y="202" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">23</text>
+<text x="1488.0" y="202" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#7b2fa8">PV</text>
+<circle cx="1432.0" cy="170" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1462.0" y="174" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">28</text>
+<text x="1422.0" y="174" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">24</text>
+<text x="1488.0" y="174" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#b3261e">VCC*</text>
+<text x="1244" y="598" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#444">* GND: ZIF 12 via Q4 (U9 Q4)</text>
+<text x="1244" y="611" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#444">* VCC: ZIF 28 via Q6 (U9 Q6)</text>
+<rect x="1534" y="82" width="296" height="540" rx="6" fill="none" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="7 5"/>
+<text x="1682.0" y="102" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="13" text-anchor="middle" font-weight="bold" fill="#000">JTAG: ATF150x</text>
+<text x="1682.0" y="118" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="middle" font-weight="normal" fill="#666">via 24-pin adapter</text>
+<rect x="1608.0" y="140" width="148.0" height="416" rx="4" fill="#f1f1f1" stroke="#000" stroke-width="1.6"/>
+<rect x="1608.0" y="126" width="64" height="10" rx="3" fill="#d9d9d9" stroke="#000" stroke-width="1.2"/>
+<text x="1678.0" y="135" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#666">lever</text>
+<rect x="1618.0" y="155" width="128.0" height="338" rx="0" fill="#fff3c4" fill-opacity="0.95" stroke="#000" stroke-width="1.8"/>
+<path d="M 1673.0 155 A 9 9 0 0 0 1691.0 155" fill="none" stroke="#000" stroke-width="1.6"/>
+<circle cx="1638.0" cy="164" r="2.6" fill="#000"/>
+<text x="1682.0" y="324.0" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="12" text-anchor="middle" font-weight="bold" fill="#555" transform="rotate(-90 1682.0 324.0)">ATF150x adapter</text>
+<rect x="1618.0" y="499" width="128.0" height="49" rx="0" fill="none" stroke="#999" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="1682.0" y="527.5" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="middle" font-weight="normal" fill="#999">empty</text>
+<circle cx="1630.0" cy="170" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1600.0" y="174" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">1</text>
+<text x="1640.0" y="174" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">1</text>
+<text x="1574.0" y="174" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="normal" fill="#999">-</text>
+<circle cx="1630.0" cy="198" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1600.0" y="202" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">2</text>
+<text x="1640.0" y="202" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">2</text>
+<text x="1574.0" y="202" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#b3261e">EDIT</text>
+<circle cx="1630.0" cy="226" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1600.0" y="230" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">3</text>
+<text x="1640.0" y="230" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">3</text>
+<text x="1574.0" y="230" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#b35c00">TDI</text>
+<circle cx="1630.0" cy="254" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1600.0" y="258" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">4</text>
+<text x="1640.0" y="258" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">4</text>
+<text x="1574.0" y="258" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="normal" fill="#999">-</text>
+<circle cx="1630.0" cy="282" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1600.0" y="286" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">5</text>
+<text x="1640.0" y="286" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">5</text>
+<text x="1574.0" y="286" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="normal" fill="#999">-</text>
+<circle cx="1630.0" cy="310" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1600.0" y="314" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">6</text>
+<text x="1640.0" y="314" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">6</text>
+<text x="1574.0" y="314" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="normal" fill="#999">-</text>
+<circle cx="1630.0" cy="338" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1600.0" y="342" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">7</text>
+<text x="1640.0" y="342" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">7</text>
+<text x="1574.0" y="342" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="normal" fill="#999">-</text>
+<circle cx="1630.0" cy="366" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1600.0" y="370" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">8</text>
+<text x="1640.0" y="370" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">8</text>
+<text x="1574.0" y="370" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="normal" fill="#999">-</text>
+<circle cx="1630.0" cy="394" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1600.0" y="398" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">9</text>
+<text x="1640.0" y="398" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">9</text>
+<text x="1574.0" y="398" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="normal" fill="#999">-</text>
+<circle cx="1630.0" cy="422" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1600.0" y="426" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">10</text>
+<text x="1640.0" y="426" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">10</text>
+<text x="1574.0" y="426" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="normal" fill="#999">-</text>
+<circle cx="1630.0" cy="450" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1600.0" y="454" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">11</text>
+<text x="1640.0" y="454" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">11</text>
+<text x="1574.0" y="454" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="normal" fill="#999">-</text>
+<circle cx="1630.0" cy="478" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1600.0" y="482" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">12</text>
+<text x="1640.0" y="482" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">12</text>
+<text x="1574.0" y="482" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#444">GND*</text>
+<circle cx="1630.0" cy="506" r="5" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="1600.0" y="510" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">13</text>
+<circle cx="1630.0" cy="534" r="5" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="1600.0" y="538" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">14</text>
+<circle cx="1734.0" cy="534" r="5" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="1764.0" y="538" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">15</text>
+<circle cx="1734.0" cy="506" r="5" fill="#fff" stroke="#000" stroke-width="1.2"/>
+<text x="1764.0" y="510" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">16</text>
+<circle cx="1734.0" cy="478" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1764.0" y="482" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">17</text>
+<text x="1724.0" y="482" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">13</text>
+<text x="1790.0" y="482" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#b35c00">TMS</text>
+<circle cx="1734.0" cy="450" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1764.0" y="454" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">18</text>
+<text x="1724.0" y="454" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">14</text>
+<text x="1790.0" y="454" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="1734.0" cy="422" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1764.0" y="426" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">19</text>
+<text x="1724.0" y="426" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">15</text>
+<text x="1790.0" y="426" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="1734.0" cy="394" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1764.0" y="398" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">20</text>
+<text x="1724.0" y="398" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">16</text>
+<text x="1790.0" y="398" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="1734.0" cy="366" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1764.0" y="370" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">21</text>
+<text x="1724.0" y="370" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">17</text>
+<text x="1790.0" y="370" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="1734.0" cy="338" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1764.0" y="342" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">22</text>
+<text x="1724.0" y="342" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">18</text>
+<text x="1790.0" y="342" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="1734.0" cy="310" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1764.0" y="314" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">23</text>
+<text x="1724.0" y="314" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">19</text>
+<text x="1790.0" y="314" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="1734.0" cy="282" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1764.0" y="286" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">24</text>
+<text x="1724.0" y="286" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">20</text>
+<text x="1790.0" y="286" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="1734.0" cy="254" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1764.0" y="258" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">25</text>
+<text x="1724.0" y="258" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">21</text>
+<text x="1790.0" y="258" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="1734.0" cy="226" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1764.0" y="230" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">26</text>
+<text x="1724.0" y="230" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">22</text>
+<text x="1790.0" y="230" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#b35c00">TDO</text>
+<circle cx="1734.0" cy="198" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1764.0" y="202" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">27</text>
+<text x="1724.0" y="202" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">23</text>
+<text x="1790.0" y="202" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#b35c00">TCK</text>
+<circle cx="1734.0" cy="170" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1764.0" y="174" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">28</text>
+<text x="1724.0" y="174" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">24</text>
+<text x="1790.0" y="174" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#b3261e">VCC*</text>
+<text x="1546" y="598" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#444">* GND: ZIF 12 via Q4 (U9 Q4)</text>
+<text x="1546" y="611" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#444">* VCC: ZIF 28 via Q6 (U9 Q6)</text>
+<rect x="1836" y="82" width="296" height="540" rx="6" fill="none" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="7 5"/>
+<text x="1984.0" y="102" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="13" text-anchor="middle" font-weight="bold" fill="#000">26CV12 / 26V12</text>
+<text x="1984.0" y="118" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="middle" font-weight="normal" fill="#666">28-pin</text>
+<rect x="1910.0" y="140" width="148.0" height="416" rx="4" fill="#f1f1f1" stroke="#000" stroke-width="1.6"/>
+<rect x="1910.0" y="126" width="64" height="10" rx="3" fill="#d9d9d9" stroke="#000" stroke-width="1.2"/>
+<text x="1980.0" y="135" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#666">lever</text>
+<rect x="1920.0" y="155" width="128.0" height="394" rx="0" fill="#fff3c4" fill-opacity="0.95" stroke="#000" stroke-width="1.8"/>
+<path d="M 1975.0 155 A 9 9 0 0 0 1993.0 155" fill="none" stroke="#000" stroke-width="1.6"/>
+<circle cx="1940.0" cy="164" r="2.6" fill="#000"/>
+<text x="1984.0" y="352.0" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="12" text-anchor="middle" font-weight="bold" fill="#555" transform="rotate(-90 1984.0 352.0)">GAL26CV12</text>
+<circle cx="1932.0" cy="170" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1902.0" y="174" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">1</text>
+<text x="1942.0" y="174" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">1</text>
+<text x="1876.0" y="174" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="normal" fill="#999">-</text>
+<circle cx="1932.0" cy="198" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1902.0" y="202" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">2</text>
+<text x="1942.0" y="202" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">2</text>
+<text x="1876.0" y="202" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#b3261e">EDIT</text>
+<circle cx="1932.0" cy="226" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1902.0" y="230" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">3</text>
+<text x="1942.0" y="230" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">3</text>
+<text x="1876.0" y="230" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#7b2fa8">PV</text>
+<circle cx="1932.0" cy="254" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1902.0" y="258" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">4</text>
+<text x="1942.0" y="258" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">4</text>
+<text x="1876.0" y="258" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a4fa0">RA0</text>
+<circle cx="1932.0" cy="282" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1902.0" y="286" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">5</text>
+<text x="1942.0" y="286" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">5</text>
+<text x="1876.0" y="286" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a4fa0">RA1</text>
+<circle cx="1932.0" cy="310" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1902.0" y="314" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">6</text>
+<text x="1942.0" y="314" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">6</text>
+<text x="1876.0" y="314" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a4fa0">RA2</text>
+<circle cx="1932.0" cy="338" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1902.0" y="342" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">7</text>
+<text x="1942.0" y="342" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">7</text>
+<text x="1876.0" y="342" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#b3261e">VCC*</text>
+<circle cx="1932.0" cy="366" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1902.0" y="370" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">8</text>
+<text x="1942.0" y="370" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">8</text>
+<text x="1876.0" y="370" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="normal" fill="#999">-</text>
+<circle cx="1932.0" cy="394" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1902.0" y="398" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">9</text>
+<text x="1942.0" y="398" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">9</text>
+<text x="1876.0" y="398" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a4fa0">RA3</text>
+<circle cx="1932.0" cy="422" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1902.0" y="426" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">10</text>
+<text x="1942.0" y="426" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">10</text>
+<text x="1876.0" y="426" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a4fa0">RA4</text>
+<circle cx="1932.0" cy="450" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1902.0" y="454" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">11</text>
+<text x="1942.0" y="454" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">11</text>
+<text x="1876.0" y="454" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a4fa0">RA5</text>
+<circle cx="1932.0" cy="478" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1902.0" y="482" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">12</text>
+<text x="1942.0" y="482" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">12</text>
+<text x="1876.0" y="482" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a7f37">SCLK</text>
+<circle cx="1932.0" cy="506" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1902.0" y="510" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">13</text>
+<text x="1942.0" y="510" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">13</text>
+<text x="1876.0" y="510" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a7f37">DIN</text>
+<circle cx="1932.0" cy="534" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="1902.0" y="538" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">14</text>
+<text x="1942.0" y="538" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#8a6d00">14</text>
+<text x="1876.0" y="538" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="end" font-weight="bold" fill="#1a7f37">STR</text>
+<circle cx="2036.0" cy="534" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="2066.0" y="538" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">15</text>
+<text x="2026.0" y="538" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">15</text>
+<text x="2092.0" y="538" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#1a7f37">DOUT</text>
+<circle cx="2036.0" cy="506" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="2066.0" y="510" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">16</text>
+<text x="2026.0" y="510" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">16</text>
+<text x="2092.0" y="510" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="2036.0" cy="478" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="2066.0" y="482" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">17</text>
+<text x="2026.0" y="482" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">17</text>
+<text x="2092.0" y="482" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="2036.0" cy="450" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="2066.0" y="454" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">18</text>
+<text x="2026.0" y="454" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">18</text>
+<text x="2092.0" y="454" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="2036.0" cy="422" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="2066.0" y="426" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">19</text>
+<text x="2026.0" y="426" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">19</text>
+<text x="2092.0" y="426" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="2036.0" cy="394" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="2066.0" y="398" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">20</text>
+<text x="2026.0" y="398" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">20</text>
+<text x="2092.0" y="398" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="2036.0" cy="366" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="2066.0" y="370" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">21</text>
+<text x="2026.0" y="370" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">21</text>
+<text x="2092.0" y="370" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#444">GND*</text>
+<circle cx="2036.0" cy="338" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="2066.0" y="342" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">22</text>
+<text x="2026.0" y="342" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">22</text>
+<text x="2092.0" y="342" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="2036.0" cy="310" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="2066.0" y="314" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">23</text>
+<text x="2026.0" y="314" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">23</text>
+<text x="2092.0" y="314" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="2036.0" cy="282" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="2066.0" y="286" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">24</text>
+<text x="2026.0" y="286" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">24</text>
+<text x="2092.0" y="286" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="2036.0" cy="254" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="2066.0" y="258" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">25</text>
+<text x="2026.0" y="258" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">25</text>
+<text x="2092.0" y="258" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="2036.0" cy="226" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="2066.0" y="230" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">26</text>
+<text x="2026.0" y="230" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">26</text>
+<text x="2092.0" y="230" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="2036.0" cy="198" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="2066.0" y="202" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">27</text>
+<text x="2026.0" y="202" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">27</text>
+<text x="2092.0" y="202" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<circle cx="2036.0" cy="170" r="5" fill="#000" stroke="#000" stroke-width="1.2"/>
+<text x="2066.0" y="174" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">28</text>
+<text x="2026.0" y="174" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="end" font-weight="normal" fill="#8a6d00">28</text>
+<text x="2092.0" y="174" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#999">-</text>
+<text x="1848" y="598" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#444">* GND: ZIF 21 via Q5 (U9 Q5)</text>
+<text x="1848" y="611" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#444">* VCC: ZIF 7 via Q7 (U9 Q7)</text>
+<text x="30" y="650" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#b3261e">EDIT</text>
+<text x="74" y="650" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">VPP / edit-mode supply (ZIF 2)</text>
+<text x="286.0" y="650" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#1a4fa0">RA0</text>
+<text x="330.0" y="650" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">row address</text>
+<text x="424.2" y="650" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#1a7f37">SCLK</text>
+<text x="468.2" y="650" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">serial clock, DIN/DOUT data, STR strobe</text>
+<text x="736.0" y="650" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#7b2fa8">PV</text>
+<text x="780.0" y="650" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">program / verify</text>
+<text x="905.2" y="650" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#b35c00">TDI</text>
+<text x="949.2" y="650" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">JTAG</text>
+<text x="1000.0" y="650" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#b3261e">VCC</text>
+<text x="1044.0" y="650" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#444">switched VCC_SKT (* = switch, see panel notes)</text>
+<text x="2130" y="650" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="end" font-weight="normal" fill="#444">●  chip pin present   ○  socket contact unused</text>
+<rect x="24" y="662" width="2112" height="856" rx="6" fill="none" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="7 5"/>
+<text x="34" y="682" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="13" text-anchor="start" font-weight="bold" fill="#444">ZIF-28 pin map: each device's role at every ZIF pin, and the Rev H connection</text>
+<text x="44" y="714" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="12" text-anchor="start" font-weight="bold" fill="#000">ZIF</text>
+<text x="94" y="714" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="12" text-anchor="start" font-weight="bold" fill="#000">Rev H net</text>
+<text x="244" y="714" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="12" text-anchor="start" font-weight="bold" fill="#000">driven by</text>
+<text x="384.0" y="699" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="12" text-anchor="start" font-weight="bold" fill="#000">22V10 / 20XV10 / ATF750C</text>
+<text x="384.0" y="714" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#666">24-pin   (role · chip pin)</text>
+<text x="631.4285714285714" y="699" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="12" text-anchor="start" font-weight="bold" fill="#000">20V8</text>
+<text x="631.4285714285714" y="714" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#666">24-pin   (role · chip pin)</text>
+<text x="878.8571428571429" y="699" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="12" text-anchor="start" font-weight="bold" fill="#000">16V8 (incl. ATF16V8B)</text>
+<text x="878.8571428571429" y="714" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#666">20-pin, top-justified   (role · chip pin)</text>
+<text x="1126.2857142857142" y="699" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="12" text-anchor="start" font-weight="bold" fill="#000">18V10</text>
+<text x="1126.2857142857142" y="714" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#666">20-pin, top-justified   (role · chip pin)</text>
+<text x="1373.7142857142858" y="699" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="12" text-anchor="start" font-weight="bold" fill="#000">6001 / 6002</text>
+<text x="1373.7142857142858" y="714" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#666">24-pin   (role · chip pin)</text>
+<text x="1621.142857142857" y="699" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="12" text-anchor="start" font-weight="bold" fill="#000">JTAG: ATF150x</text>
+<text x="1621.142857142857" y="714" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#666">via 24-pin adapter   (role · chip pin)</text>
+<text x="1868.5714285714284" y="699" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="12" text-anchor="start" font-weight="bold" fill="#000">26CV12 / 26V12</text>
+<text x="1868.5714285714284" y="714" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="9" text-anchor="start" font-weight="normal" fill="#666">28-pin</text>
+<line x1="38" y1="722" x2="2122" y2="722" stroke="#000" stroke-width="1.2"/>
+<text x="44" y="738" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#000">1</text>
+<text x="94" y="738" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#444">pull-down</text>
+<text x="244" y="738" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#666">R20 10k</text>
+<text x="384.0" y="738" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 1</text>
+<text x="631.4285714285714" y="738" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 1</text>
+<text x="878.8571428571429" y="738" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 1</text>
+<text x="1126.2857142857142" y="738" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 1</text>
+<text x="1373.7142857142858" y="738" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 1</text>
+<text x="1621.142857142857" y="738" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 1</text>
+<text x="1868.5714285714284" y="738" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">–</text>
+<rect x="38" y="745" width="2094" height="22" rx="0" fill="#f6f6f6" stroke="none" stroke-width="0"/>
+<text x="44" y="760" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#000">2</text>
+<text x="94" y="760" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#b3261e">VPP</text>
+<text x="244" y="760" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#666">VPP gen.</text>
+<text x="384.0" y="760" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">EDIT · 2</text>
+<text x="631.4285714285714" y="760" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">EDIT · 2</text>
+<text x="878.8571428571429" y="760" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">EDIT · 2</text>
+<text x="1126.2857142857142" y="760" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">EDIT · 2</text>
+<text x="1373.7142857142858" y="760" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">EDIT · 2</text>
+<text x="1621.142857142857" y="760" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">EDIT · 2</text>
+<text x="1868.5714285714284" y="760" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">EDIT</text>
+<text x="44" y="782" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#000">3</text>
+<text x="94" y="782" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#1a4fa0">U1 PD0</text>
+<text x="244" y="782" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#666">MCU</text>
+<text x="384.0" y="782" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">PV · 3</text>
+<text x="631.4285714285714" y="782" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">RA1 · 3</text>
+<text x="878.8571428571429" y="782" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">RA1 · 3</text>
+<text x="1126.2857142857142" y="782" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">RA3 · 3</text>
+<text x="1373.7142857142858" y="782" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 3</text>
+<text x="1621.142857142857" y="782" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">TDI · 3</text>
+<text x="1868.5714285714284" y="782" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">PV</text>
+<rect x="38" y="789" width="2094" height="22" rx="0" fill="#f6f6f6" stroke="none" stroke-width="0"/>
+<text x="44" y="804" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#000">4</text>
+<text x="94" y="804" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#1a4fa0">U2 Q0</text>
+<text x="244" y="804" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#666">595</text>
+<text x="384.0" y="804" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">RA0 · 4</text>
+<text x="631.4285714285714" y="804" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">RA2 · 4</text>
+<text x="878.8571428571429" y="804" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">RA2 · 4</text>
+<text x="1126.2857142857142" y="804" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">RA4 · 4</text>
+<text x="1373.7142857142858" y="804" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">RA0 · 4</text>
+<text x="1621.142857142857" y="804" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 4</text>
+<text x="1868.5714285714284" y="804" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">RA0</text>
+<text x="44" y="826" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#000">5</text>
+<text x="94" y="826" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#1a4fa0">U2 Q3</text>
+<text x="244" y="826" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#666">595</text>
+<text x="384.0" y="826" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">RA1 · 5</text>
+<text x="631.4285714285714" y="826" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">RA3 · 5</text>
+<text x="878.8571428571429" y="826" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">RA3 · 5</text>
+<text x="1126.2857142857142" y="826" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">RA5 · 5</text>
+<text x="1373.7142857142858" y="826" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">RA1 · 5</text>
+<text x="1621.142857142857" y="826" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 5</text>
+<text x="1868.5714285714284" y="826" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">RA1</text>
+<rect x="38" y="833" width="2094" height="22" rx="0" fill="#f6f6f6" stroke="none" stroke-width="0"/>
+<text x="44" y="848" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#000">6</text>
+<text x="94" y="848" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#1a4fa0">U2 Q2</text>
+<text x="244" y="848" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#666">595</text>
+<text x="384.0" y="848" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">RA2 · 6</text>
+<text x="631.4285714285714" y="848" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 6</text>
+<text x="878.8571428571429" y="848" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">RA4 · 6</text>
+<text x="1126.2857142857142" y="848" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">SCLK · 6</text>
+<text x="1373.7142857142858" y="848" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">RA2 · 6</text>
+<text x="1621.142857142857" y="848" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 6</text>
+<text x="1868.5714285714284" y="848" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">RA2</text>
+<text x="44" y="870" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#000">7</text>
+<text x="94" y="870" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#1a4fa0">U2 Q1 + Q7</text>
+<text x="244" y="870" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#666">595 / VCC sw</text>
+<text x="384.0" y="870" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">RA3 · 7</text>
+<text x="631.4285714285714" y="870" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 7</text>
+<text x="878.8571428571429" y="870" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">RA5 · 7</text>
+<text x="1126.2857142857142" y="870" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">DIN · 7</text>
+<text x="1373.7142857142858" y="870" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">RA3 · 7</text>
+<text x="1621.142857142857" y="870" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 7</text>
+<text x="1868.5714285714284" y="870" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">VCC (Q7)</text>
+<rect x="38" y="877" width="2094" height="22" rx="0" fill="#f6f6f6" stroke="none" stroke-width="0"/>
+<text x="44" y="892" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#000">8</text>
+<text x="94" y="892" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#1a4fa0">U1 PD2</text>
+<text x="244" y="892" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#666">MCU</text>
+<text x="384.0" y="892" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">RA4 · 8</text>
+<text x="631.4285714285714" y="892" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">RA4 · 8</text>
+<text x="878.8571428571429" y="892" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">SCLK · 8</text>
+<text x="1126.2857142857142" y="892" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">STR · 8</text>
+<text x="1373.7142857142858" y="892" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">RA4 · 8</text>
+<text x="1621.142857142857" y="892" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 8</text>
+<text x="1868.5714285714284" y="892" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">–</text>
+<text x="44" y="914" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#000">9</text>
+<text x="94" y="914" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#1a4fa0">U1 PD3</text>
+<text x="244" y="914" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#666">MCU</text>
+<text x="384.0" y="914" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">RA5 · 9</text>
+<text x="631.4285714285714" y="914" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">RA5 · 9</text>
+<text x="878.8571428571429" y="914" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">DIN · 9</text>
+<text x="1126.2857142857142" y="914" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">DOUT · 9</text>
+<text x="1373.7142857142858" y="914" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">RA5 · 9</text>
+<text x="1621.142857142857" y="914" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 9</text>
+<text x="1868.5714285714284" y="914" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">RA3</text>
+<rect x="38" y="921" width="2094" height="22" rx="0" fill="#f6f6f6" stroke="none" stroke-width="0"/>
+<text x="44" y="936" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#000">10</text>
+<text x="94" y="936" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#1a4fa0">U1 PD4 + Q1</text>
+<text x="244" y="936" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#666">MCU / GND sw</text>
+<text x="384.0" y="936" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">SCLK · 10</text>
+<text x="631.4285714285714" y="936" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">SCLK · 10</text>
+<text x="878.8571428571429" y="936" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">GND · 10 (Q1)</text>
+<text x="1126.2857142857142" y="936" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">GND · 10 (Q1)</text>
+<text x="1373.7142857142858" y="936" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">SCLK · 10</text>
+<text x="1621.142857142857" y="936" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 10</text>
+<text x="1868.5714285714284" y="936" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">RA4</text>
+<text x="44" y="958" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#000">11</text>
+<text x="94" y="958" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#1a4fa0">U1 PD5</text>
+<text x="244" y="958" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#666">MCU</text>
+<text x="384.0" y="958" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">DIN · 11</text>
+<text x="631.4285714285714" y="958" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">DIN · 11</text>
+<text x="878.8571428571429" y="958" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#bbb">(no chip pin)</text>
+<text x="1126.2857142857142" y="958" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#bbb">(no chip pin)</text>
+<text x="1373.7142857142858" y="958" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">DIN · 11</text>
+<text x="1621.142857142857" y="958" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 11</text>
+<text x="1868.5714285714284" y="958" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">RA5</text>
+<rect x="38" y="965" width="2094" height="22" rx="0" fill="#f6f6f6" stroke="none" stroke-width="0"/>
+<text x="44" y="980" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#000">12</text>
+<text x="94" y="980" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#1a4fa0">U9 Q0 + Q4</text>
+<text x="244" y="980" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#666">595 / GND sw</text>
+<text x="384.0" y="980" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">GND · 12 (Q4)</text>
+<text x="631.4285714285714" y="980" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">GND · 12 (Q4)</text>
+<text x="878.8571428571429" y="980" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#bbb">(no chip pin)</text>
+<text x="1126.2857142857142" y="980" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#bbb">(no chip pin)</text>
+<text x="1373.7142857142858" y="980" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">GND · 12 (Q4)</text>
+<text x="1621.142857142857" y="980" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">GND · 12 (Q4)</text>
+<text x="1868.5714285714284" y="980" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">SCLK</text>
+<text x="44" y="1002" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#000">13</text>
+<text x="94" y="1002" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#1a4fa0">U9 Q1</text>
+<text x="244" y="1002" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#666">595</text>
+<text x="384.0" y="1002" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#bbb">(no chip pin)</text>
+<text x="631.4285714285714" y="1002" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#bbb">(no chip pin)</text>
+<text x="878.8571428571429" y="1002" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#bbb">(no chip pin)</text>
+<text x="1126.2857142857142" y="1002" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#bbb">(no chip pin)</text>
+<text x="1373.7142857142858" y="1002" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#bbb">(no chip pin)</text>
+<text x="1621.142857142857" y="1002" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#bbb">(no chip pin)</text>
+<text x="1868.5714285714284" y="1002" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">DIN</text>
+<rect x="38" y="1009" width="2094" height="22" rx="0" fill="#f6f6f6" stroke="none" stroke-width="0"/>
+<text x="44" y="1024" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#000">14</text>
+<text x="94" y="1024" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#1a4fa0">U9 Q2</text>
+<text x="244" y="1024" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#666">595</text>
+<text x="384.0" y="1024" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#bbb">(no chip pin)</text>
+<text x="631.4285714285714" y="1024" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#bbb">(no chip pin)</text>
+<text x="878.8571428571429" y="1024" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#bbb">(no chip pin)</text>
+<text x="1126.2857142857142" y="1024" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#bbb">(no chip pin)</text>
+<text x="1373.7142857142858" y="1024" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#bbb">(no chip pin)</text>
+<text x="1621.142857142857" y="1024" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#bbb">(no chip pin)</text>
+<text x="1868.5714285714284" y="1024" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">STR</text>
+<line x1="38" y1="1031" x2="2122" y2="1031" stroke="#000" stroke-width="1.0"/>
+<text x="44" y="1046" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#000">15</text>
+<text x="94" y="1046" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#1a4fa0">U1 PA3</text>
+<text x="244" y="1046" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#666">MCU</text>
+<text x="384.0" y="1046" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#bbb">(no chip pin)</text>
+<text x="631.4285714285714" y="1046" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#bbb">(no chip pin)</text>
+<text x="878.8571428571429" y="1046" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#bbb">(no chip pin)</text>
+<text x="1126.2857142857142" y="1046" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#bbb">(no chip pin)</text>
+<text x="1373.7142857142858" y="1046" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#bbb">(no chip pin)</text>
+<text x="1621.142857142857" y="1046" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#bbb">(no chip pin)</text>
+<text x="1868.5714285714284" y="1046" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">DOUT</text>
+<rect x="38" y="1053" width="2094" height="22" rx="0" fill="#f6f6f6" stroke="none" stroke-width="0"/>
+<text x="44" y="1068" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#000">16</text>
+<text x="94" y="1068" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#444">pull-down</text>
+<text x="244" y="1068" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#666">R46 10k</text>
+<text x="384.0" y="1068" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#bbb">(no chip pin)</text>
+<text x="631.4285714285714" y="1068" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#bbb">(no chip pin)</text>
+<text x="878.8571428571429" y="1068" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#bbb">(no chip pin)</text>
+<text x="1126.2857142857142" y="1068" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#bbb">(no chip pin)</text>
+<text x="1373.7142857142858" y="1068" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#bbb">(no chip pin)</text>
+<text x="1621.142857142857" y="1068" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#bbb">(no chip pin)</text>
+<text x="1868.5714285714284" y="1068" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">–</text>
+<text x="44" y="1090" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#000">17</text>
+<text x="94" y="1090" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#1a4fa0">U1 PD6</text>
+<text x="244" y="1090" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#666">MCU</text>
+<text x="384.0" y="1090" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">STR · 13</text>
+<text x="631.4285714285714" y="1090" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">STR · 13</text>
+<text x="878.8571428571429" y="1090" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#bbb">(no chip pin)</text>
+<text x="1126.2857142857142" y="1090" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#bbb">(no chip pin)</text>
+<text x="1373.7142857142858" y="1090" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">STR · 13</text>
+<text x="1621.142857142857" y="1090" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">TMS · 13</text>
+<text x="1868.5714285714284" y="1090" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">–</text>
+<rect x="38" y="1097" width="2094" height="22" rx="0" fill="#f6f6f6" stroke="none" stroke-width="0"/>
+<text x="44" y="1112" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#000">18</text>
+<text x="94" y="1112" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#1a4fa0">U1 PD7</text>
+<text x="244" y="1112" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#666">MCU</text>
+<text x="384.0" y="1112" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">DOUT · 14</text>
+<text x="631.4285714285714" y="1112" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 14</text>
+<text x="878.8571428571429" y="1112" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#bbb">(no chip pin)</text>
+<text x="1126.2857142857142" y="1112" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#bbb">(no chip pin)</text>
+<text x="1373.7142857142858" y="1112" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">DOUT · 14</text>
+<text x="1621.142857142857" y="1112" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 14</text>
+<text x="1868.5714285714284" y="1112" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">–</text>
+<text x="44" y="1134" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#000">19</text>
+<text x="94" y="1134" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#1a4fa0">U1 PC3</text>
+<text x="244" y="1134" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#666">MCU</text>
+<text x="384.0" y="1134" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 15</text>
+<text x="631.4285714285714" y="1134" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">DOUT · 15</text>
+<text x="878.8571428571429" y="1134" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">STR · 11</text>
+<text x="1126.2857142857142" y="1134" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 11</text>
+<text x="1373.7142857142858" y="1134" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 15</text>
+<text x="1621.142857142857" y="1134" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 15</text>
+<text x="1868.5714285714284" y="1134" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">–</text>
+<rect x="38" y="1141" width="2094" height="22" rx="0" fill="#f6f6f6" stroke="none" stroke-width="0"/>
+<text x="44" y="1156" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#000">20</text>
+<text x="94" y="1156" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#1a4fa0">U1 PF0</text>
+<text x="244" y="1156" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#666">MCU</text>
+<text x="384.0" y="1156" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 16</text>
+<text x="631.4285714285714" y="1156" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 16</text>
+<text x="878.8571428571429" y="1156" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">DOUT · 12</text>
+<text x="1126.2857142857142" y="1156" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 12</text>
+<text x="1373.7142857142858" y="1156" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 16</text>
+<text x="1621.142857142857" y="1156" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 16</text>
+<text x="1868.5714285714284" y="1156" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">–</text>
+<text x="44" y="1178" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#000">21</text>
+<text x="94" y="1178" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#444">pull-down + Q5</text>
+<text x="244" y="1178" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#666">R21 / GND sw</text>
+<text x="384.0" y="1178" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 17</text>
+<text x="631.4285714285714" y="1178" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 17</text>
+<text x="878.8571428571429" y="1178" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 13</text>
+<text x="1126.2857142857142" y="1178" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 13</text>
+<text x="1373.7142857142858" y="1178" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 17</text>
+<text x="1621.142857142857" y="1178" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 17</text>
+<text x="1868.5714285714284" y="1178" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">GND (Q5)</text>
+<rect x="38" y="1185" width="2094" height="22" rx="0" fill="#f6f6f6" stroke="none" stroke-width="0"/>
+<text x="44" y="1200" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#000">22</text>
+<text x="94" y="1200" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#444">pull-down</text>
+<text x="244" y="1200" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#666">R22 10k</text>
+<text x="384.0" y="1200" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 18</text>
+<text x="631.4285714285714" y="1200" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 18</text>
+<text x="878.8571428571429" y="1200" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 14</text>
+<text x="1126.2857142857142" y="1200" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 14</text>
+<text x="1373.7142857142858" y="1200" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 18</text>
+<text x="1621.142857142857" y="1200" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 18</text>
+<text x="1868.5714285714284" y="1200" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">–</text>
+<text x="44" y="1222" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#000">23</text>
+<text x="94" y="1222" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#444">pull-down</text>
+<text x="244" y="1222" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#666">R23 10k</text>
+<text x="384.0" y="1222" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 19</text>
+<text x="631.4285714285714" y="1222" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 19</text>
+<text x="878.8571428571429" y="1222" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 15</text>
+<text x="1126.2857142857142" y="1222" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 15</text>
+<text x="1373.7142857142858" y="1222" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 19</text>
+<text x="1621.142857142857" y="1222" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 19</text>
+<text x="1868.5714285714284" y="1222" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">–</text>
+<rect x="38" y="1229" width="2094" height="22" rx="0" fill="#f6f6f6" stroke="none" stroke-width="0"/>
+<text x="44" y="1244" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#000">24</text>
+<text x="94" y="1244" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#1a4fa0">U2 Q5</text>
+<text x="244" y="1244" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#666">595</text>
+<text x="384.0" y="1244" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 20</text>
+<text x="631.4285714285714" y="1244" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 20</text>
+<text x="878.8571428571429" y="1244" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 16</text>
+<text x="1126.2857142857142" y="1244" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">RA2 · 16</text>
+<text x="1373.7142857142858" y="1244" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 20</text>
+<text x="1621.142857142857" y="1244" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 20</text>
+<text x="1868.5714285714284" y="1244" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">–</text>
+<text x="44" y="1266" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#000">25</text>
+<text x="94" y="1266" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#1a4fa0">U2 Q4</text>
+<text x="244" y="1266" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#666">595</text>
+<text x="384.0" y="1266" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 21</text>
+<text x="631.4285714285714" y="1266" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">RA0 · 21</text>
+<text x="878.8571428571429" y="1266" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 17</text>
+<text x="1126.2857142857142" y="1266" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">RA1 · 17</text>
+<text x="1373.7142857142858" y="1266" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 21</text>
+<text x="1621.142857142857" y="1266" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 21</text>
+<text x="1868.5714285714284" y="1266" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">–</text>
+<rect x="38" y="1273" width="2094" height="22" rx="0" fill="#f6f6f6" stroke="none" stroke-width="0"/>
+<text x="44" y="1288" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#000">26</text>
+<text x="94" y="1288" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#1a4fa0">U1 PF1</text>
+<text x="244" y="1288" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#666">MCU</text>
+<text x="384.0" y="1288" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 22</text>
+<text x="631.4285714285714" y="1288" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">PV · 22</text>
+<text x="878.8571428571429" y="1288" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">RA0 · 18</text>
+<text x="1126.2857142857142" y="1288" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">RA0 · 18</text>
+<text x="1373.7142857142858" y="1288" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 22</text>
+<text x="1621.142857142857" y="1288" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">TDO · 22</text>
+<text x="1868.5714285714284" y="1288" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">–</text>
+<text x="44" y="1310" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#000">27</text>
+<text x="94" y="1310" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#1a4fa0">U2 Q7</text>
+<text x="244" y="1310" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#666">595</text>
+<text x="384.0" y="1310" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 23</text>
+<text x="631.4285714285714" y="1310" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">– · 23</text>
+<text x="878.8571428571429" y="1310" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">PV · 19</text>
+<text x="1126.2857142857142" y="1310" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">PV · 19</text>
+<text x="1373.7142857142858" y="1310" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">PV · 23</text>
+<text x="1621.142857142857" y="1310" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">TCK · 23</text>
+<text x="1868.5714285714284" y="1310" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">–</text>
+<rect x="38" y="1317" width="2094" height="22" rx="0" fill="#f6f6f6" stroke="none" stroke-width="0"/>
+<text x="44" y="1332" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="bold" fill="#000">28</text>
+<text x="94" y="1332" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="start" font-weight="normal" fill="#b3261e">VCC_SKT via Q6</text>
+<text x="244" y="1332" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#666">VCC sw + R47</text>
+<text x="384.0" y="1332" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">VCC · 24 (Q6)</text>
+<text x="631.4285714285714" y="1332" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">VCC · 24 (Q6)</text>
+<text x="878.8571428571429" y="1332" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">VCC · 20 (Q6)</text>
+<text x="1126.2857142857142" y="1332" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">VCC · 20 (Q6)</text>
+<text x="1373.7142857142858" y="1332" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">VCC · 24 (Q6)</text>
+<text x="1621.142857142857" y="1332" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="True" font-weight="bold" fill="#000">VCC · 24 (Q6)</text>
+<text x="1868.5714285714284" y="1332" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="11" text-anchor="False" font-weight="bold" fill="#000">–</text>
+<text x="44" y="1362" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10.5" text-anchor="start" font-weight="normal" fill="#000">1. Role names: EDIT = VPP pin in edit mode, PV = program/verify, STR = strobe, DIN/DOUT = serial data in/out, RA0–RA5 = row address. '–' = held low or undriven.</text>
+<text x="44" y="1380" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10.5" text-anchor="start" font-weight="normal" fill="#000">2. Signals the MCU reads (DOUT, TDO) land on MCU pins: ZIF 9, 15, 18, 19, 20 and 26. ZIF 6 (18V10 SCLK), 12–14 (26CV12 SCLK, DIN, STR) and 27 (PV, JTAG TCK) go through a 74HC595 and change only on a latch pulse.</text>
+<text x="44" y="1398" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10.5" text-anchor="start" font-weight="normal" fill="#000">3. GND and VCC are switched per chip size and all switches are off at reset: one GND switch (Q1, Q4 or Q5) and one VCC switch (Q6 or Q7) at a time. Never Q6 with Q7; never Q4 with a 28-pin part.</text>
+<text x="44" y="1416" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10.5" text-anchor="start" font-weight="normal" fill="#000">4. ZIF 1, 16, 22, 23 and (when Q6 is off) 28 have pull-downs; ZIF 21's pull-down is shared with the Q5 ground switch.</text>
+<text x="44" y="1434" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10.5" text-anchor="start" font-weight="normal" fill="#000">5. Chip pin for 24-pin parts: ZIF 1–12 = pins 1–12, ZIF 17–28 = pins 13–24. For 20-pin parts: ZIF 1–10 = pins 1–10, ZIF 19–28 = pins 11–20.</text>
+<rect x="1780" y="1446" width="356" height="62" rx="0" fill="#f4f4f4" stroke="#000" stroke-width="1.4"/>
+<text x="1792" y="1466" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="12" text-anchor="start" font-weight="bold" fill="#000">J48 GAL / PAL Programmer — AVR16DU28</text>
+<text x="1792" y="1483" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#000">Rev H  ·  ZIF-28 pin map  ·  2026-10-17</text>
+<text x="1792" y="1498" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="10" text-anchor="start" font-weight="normal" fill="#666">Pin roles: published device pinouts</text>
+</svg>
