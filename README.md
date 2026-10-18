@@ -57,4 +57,9 @@ The J48 was inspired by [Afterburner](https://github.com/ole00/afterburner) by o
 
 ## License
 
-To be decided. Planned: CERN-OHL for the hardware, GPL-3.0 or MIT for the firmware and Wingman.
+| Part | License |
+| --- | --- |
+| Hardware (`hardware/`) and docs | [CERN-OHL-S-2.0](LICENSES/CERN-OHL-S-2.0.txt) |
+| Firmware and Wingman (`firmware/`, `wingman/`) | [GPL-3.0-only](LICENSES/GPL-3.0-only.txt) |
+
+Both are reciprocal: anyone who distributes a modified board or modified software must share their changes under the same terms. See [LICENSE](LICENSE) for details.
