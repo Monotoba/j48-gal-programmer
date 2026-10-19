@@ -66,11 +66,11 @@ def box(name, prefix, left, right, top=(), bottom=(), width=None):
                      hide_pin_names=False, h=h, w=w)
 
 box("AVR16DU28", "U",
-    left=[("18", "VDD"), ("24", "VDD"), ("6", "VUSB"), ("8", "DP"), ("7", "DM"), ("22", "PF6/~{RESET}"), ("23", "PF7/UPDI"),
-          None, ("19", "GND"), ("25", "GND")],
-    right=[("26", "PA0"), ("27", "PA1"), ("28", "PA2"), ("1", "PA3"), ("2", "PA4/MOSI"), ("3", "PA5/MISO"), ("4", "PA6/SCK"), ("5", "PA7"),
-           ("9", "PC3"), ("10", "PD0"), ("11", "PD1/AIN1"), ("12", "PD2"), ("13", "PD3"), ("14", "PD4"), ("15", "PD5"), ("16", "PD6"),
-           ("17", "PD7"), ("20", "PF0"), ("21", "PF1")])
+    left=[("14", "VDD"), ("20", "VDD"), ("2", "VUSB"), ("4", "DP"), ("3", "DM"), ("18", "PF6/~{RESET}"), ("19", "PF7/UPDI"),
+          None, ("15", "GND"), ("21", "GND")],
+    right=[("22", "PA0"), ("23", "PA1"), ("24", "PA2"), ("25", "PA3"), ("26", "PA4/MOSI"), ("27", "PA5/MISO"), ("28", "PA6/SCK"), ("1", "PA7"),
+           ("5", "PC3"), ("6", "PD0"), ("7", "PD1/AIN1"), ("8", "PD2"), ("9", "PD3"), ("10", "PD4"), ("11", "PD5"), ("12", "PD6"),
+           ("13", "PD7"), ("16", "PF0"), ("17", "PF1")])
 box("74HC595", "U",
     left=[("14", "SER"), ("11", "SRCLK"), ("12", "RCLK"), ("13", "~{OE}"), ("10", "~{MR}"), ("16", "VCC"), ("8", "GND")],
     right=[("15", "Q0"), ("1", "Q1"), ("2", "Q2"), ("3", "Q3"), ("4", "Q4"), ("5", "Q5"), ("6", "Q6"), ("7", "Q7"), ("9", "Q7'")])
@@ -123,10 +123,10 @@ def part(ref, lib, val, pins, desc=""):
 ZIFR = {"R1": ("PC3", "ZIF19"), "R2": ("PD0", "ZIF3"), "R3": ("PD2", "ZIF8"), "R4": ("PD3", "ZIF9"), "R5": ("PD4", "ZIF10"),
         "R6": ("PD5", "ZIF11"), "R7": ("PD6", "ZIF17"), "R8": ("PD7", "ZIF18"), "R9": ("PF0", "ZIF20"), "R10": ("PF1", "ZIF26")}
 part("U1", "AVR16DU28", "AVR16DU28-I/SP", {
-    "18": "VSYS", "24": "VSYS", "6": "VUSB", "8": "USB_DP", "7": "USB_DM", "22": "RESET", "23": "UPDI", "19": "GND", "25": "GND",
-    "26": "SRAM_CS", "27": "SR_OE", "28": "DAC_CS", "1": "MCU_PA3", "2": "SPI_MOSI", "3": "SPI_MISO", "4": "SPI_SCK", "5": "SR_RCLK",
-    "9": "MCU_PC3", "10": "MCU_PD0", "11": "VPP_SENSE", "12": "MCU_PD2", "13": "MCU_PD3", "14": "MCU_PD4", "15": "MCU_PD5",
-    "16": "MCU_PD6", "17": "MCU_PD7", "20": "MCU_PF0", "21": "MCU_PF1"}, "AVR DU, SPDIP-28; pin numbers per DS40002576 I/O multiplexing table")
+    "14": "VSYS", "20": "VSYS", "2": "VUSB", "4": "USB_DP", "3": "USB_DM", "18": "RESET", "19": "UPDI", "15": "GND", "21": "GND",
+    "22": "SRAM_CS", "23": "SR_OE", "24": "DAC_CS", "25": "MCU_PA3", "26": "SPI_MOSI", "27": "SPI_MISO", "28": "SPI_SCK", "1": "SR_RCLK",
+    "5": "MCU_PC3", "6": "MCU_PD0", "7": "VPP_SENSE", "8": "MCU_PD2", "9": "MCU_PD3", "10": "MCU_PD4", "11": "MCU_PD5",
+    "12": "MCU_PD6", "13": "MCU_PD7", "16": "MCU_PF0", "17": "MCU_PF1"}, "AVR DU, SPDIP-28; pin numbers per DS40002576 section 2.4 (SPDIP/SSOP-28 pinout)")
 for r, (port, z) in ZIFR.items():
     part(r, "R", "100", {"1": "MCU_" + port, "2": z})
 part("R32", "R", "10k", {"1": "VSYS", "2": "RESET"})
