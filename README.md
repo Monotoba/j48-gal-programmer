@@ -2,7 +2,7 @@
 
 A small, inexpensive programmer for the most popular GALs and PALs, built around a single AVR16DU28 microcontroller with native USB. The board is the **J48 Programmer**; the host software is **Wingman**.
 
-> **Status:** schematic at Rev H, not yet built or verified. Firmware and Wingman are not started. Breadboard the design (the AVR16DU28 comes in SPDIP-28) before ordering PCBs.
+> **Status:** schematic at Rev I, not yet built or verified. Firmware and Wingman are not started. Breadboard the design (the AVR16DU28 comes in SPDIP-28) before ordering PCBs.
 
 ## Supported devices (planned)
 
@@ -18,13 +18,14 @@ A small, inexpensive programmer for the most popular GALs and PALs, built around
 
 Every device sits **head-aligned** in a ZIF-28: chip pin 1 at ZIF pin 1, at the lever end. Ground and VCC are switched per chip size, and the socket is unpowered until the firmware selects a device type.
 
-## Hardware highlights (Rev H)
+## Hardware highlights (Rev I)
 
 - AVR16DU28 with native USB (no USB-serial chip), UPDI programming header
 - Two chained 74HC595 shift registers for socket lines and switch control
 - MCP4821 12-bit DAC driving an op-amp and pass transistor for VPP, 0–17.4 V, from an on-board MIC2288 boost converter
 - 23LC1024 SPI SRAM for the fuse map
 - Logic supply selectable at 5 V or 3.3 V (J4) for low-voltage parts
+- J5 expansion header (power, SPI bus, end of the 595 chain) for adapter boards; see [docs/expansion.md](docs/expansion.md)
 
 ## Repository layout
 
@@ -49,7 +50,7 @@ pip install cairosvg sexpdata
 sh hardware/scripts/build.sh
 ```
 
-This regenerates the Rev H SVG, PDF and KiCad schematic, then checks the KiCad netlist against the intended connections.
+This regenerates the Rev I schematic (SVG, PDF, KiCad) and the ZIF-28 pin map, then checks the KiCad netlist against the intended connections.
 
 ## Acknowledgements
 

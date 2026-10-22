@@ -1,5 +1,5 @@
 """Generate a KiCad schematic (.kicad_sch, KiCad 9 format; KiCad 10 opens and upgrades it)
-for the GAL programmer Rev H. Connectivity is by net labels on short wire stubs at every pin,
+for the GAL programmer Rev I. Connectivity is by net labels on short wire stubs at every pin,
 matching the Rev F/G drawing convention (labels with the same name are joined)."""
 import uuid, json, sys
 
@@ -66,11 +66,11 @@ def box(name, prefix, left, right, top=(), bottom=(), width=None):
                      hide_pin_names=False, h=h, w=w)
 
 box("AVR16DU28", "U",
-    left=[("18", "VDD"), ("24", "VDD"), ("6", "VUSB"), ("8", "DP"), ("7", "DM"), ("22", "PF6/~{RESET}"), ("23", "PF7/UPDI"),
-          None, ("19", "GND"), ("25", "GND")],
-    right=[("26", "PA0"), ("27", "PA1"), ("28", "PA2"), ("1", "PA3"), ("2", "PA4/MOSI"), ("3", "PA5/MISO"), ("4", "PA6/SCK"), ("5", "PA7"),
-           ("9", "PC3"), ("10", "PD0"), ("11", "PD1/AIN1"), ("12", "PD2"), ("13", "PD3"), ("14", "PD4"), ("15", "PD5"), ("16", "PD6"),
-           ("17", "PD7"), ("20", "PF0"), ("21", "PF1")])
+    left=[("14", "VDD"), ("20", "VDD"), ("2", "VUSB"), ("4", "DP"), ("3", "DM"), ("18", "PF6/~{RESET}"), ("19", "PF7/UPDI"),
+          None, ("15", "GND"), ("21", "GND")],
+    right=[("22", "PA0"), ("23", "PA1"), ("24", "PA2"), ("25", "PA3"), ("26", "PA4/MOSI"), ("27", "PA5/MISO"), ("28", "PA6/SCK"), ("1", "PA7"),
+           ("5", "PC3"), ("6", "PD0"), ("7", "PD1/AIN1"), ("8", "PD2"), ("9", "PD3"), ("10", "PD4"), ("11", "PD5"), ("12", "PD6"),
+           ("13", "PD7"), ("16", "PF0"), ("17", "PF1")])
 box("74HC595", "U",
     left=[("14", "SER"), ("11", "SRCLK"), ("12", "RCLK"), ("13", "~{OE}"), ("10", "~{MR}"), ("16", "VCC"), ("8", "GND")],
     right=[("15", "Q0"), ("1", "Q1"), ("2", "Q2"), ("3", "Q3"), ("4", "Q4"), ("5", "Q5"), ("6", "Q6"), ("7", "Q7"), ("9", "Q7'")])
@@ -91,6 +91,7 @@ box("USB_C_2.0", "J",
     left=[("A4", "VBUS"), ("A9", "VBUS"), ("B4", "VBUS"), ("B9", "VBUS"), ("A5", "CC1"), ("B5", "CC2"), ("A8", "SBU1"), ("B8", "SBU2")],
     right=[("A6", "D+"), ("B6", "D+"), ("A7", "D-"), ("B7", "D-"), ("A1", "GND"), ("A12", "GND"), ("B1", "GND"), ("B12", "GND")])
 box("Conn_1x03", "J", left=[("1", "1"), ("2", "2"), ("3", "3")], right=[])
+box("Conn_2x08", "J", left=[(str(i), str(i)) for i in range(1, 17, 2)], right=[(str(i), str(i)) for i in range(2, 17, 2)])
 box("Conn_2x03", "J", left=[("1", "1"), ("3", "3"), ("5", "5")], right=[("2", "2"), ("4", "4"), ("6", "6")])
 box("NPN_ECB", "Q", left=[("3", "B")], right=[("2", "C"), ("1", "E")])          # BD139: 1=E 2=C 3=B
 box("NPN_CBE", "Q", left=[("2", "B")], right=[("1", "C"), ("3", "E")])          # BC547: 1=C 2=B 3=E
@@ -122,10 +123,10 @@ def part(ref, lib, val, pins, desc=""):
 ZIFR = {"R1": ("PC3", "ZIF19"), "R2": ("PD0", "ZIF3"), "R3": ("PD2", "ZIF8"), "R4": ("PD3", "ZIF9"), "R5": ("PD4", "ZIF10"),
         "R6": ("PD5", "ZIF11"), "R7": ("PD6", "ZIF17"), "R8": ("PD7", "ZIF18"), "R9": ("PF0", "ZIF20"), "R10": ("PF1", "ZIF26")}
 part("U1", "AVR16DU28", "AVR16DU28-I/SP", {
-    "18": "VSYS", "24": "VSYS", "6": "VUSB", "8": "USB_DP", "7": "USB_DM", "22": "RESET", "23": "UPDI", "19": "GND", "25": "GND",
-    "26": "SRAM_CS", "27": "SR_OE", "28": "DAC_CS", "1": "MCU_PA3", "2": "SPI_MOSI", "3": "SPI_MISO", "4": "SPI_SCK", "5": "SR_RCLK",
-    "9": "MCU_PC3", "10": "MCU_PD0", "11": "VPP_SENSE", "12": "MCU_PD2", "13": "MCU_PD3", "14": "MCU_PD4", "15": "MCU_PD5",
-    "16": "MCU_PD6", "17": "MCU_PD7", "20": "MCU_PF0", "21": "MCU_PF1"}, "AVR DU, SPDIP-28; pin numbers per DS40002576 I/O multiplexing table")
+    "14": "VSYS", "20": "VSYS", "2": "VUSB", "4": "USB_DP", "3": "USB_DM", "18": "RESET", "19": "UPDI", "15": "GND", "21": "GND",
+    "22": "SRAM_CS", "23": "SR_OE", "24": "DAC_CS", "25": "MCU_PA3", "26": "SPI_MOSI", "27": "SPI_MISO", "28": "SPI_SCK", "1": "SR_RCLK",
+    "5": "MCU_PC3", "6": "MCU_PD0", "7": "VPP_SENSE", "8": "MCU_PD2", "9": "MCU_PD3", "10": "MCU_PD4", "11": "MCU_PD5",
+    "12": "MCU_PD6", "13": "MCU_PD7", "16": "MCU_PF0", "17": "MCU_PF1"}, "AVR DU, SPDIP-28; pin numbers per DS40002576 section 2.4 (SPDIP/SSOP-28 pinout)")
 for r, (port, z) in ZIFR.items():
     part(r, "R", "100", {"1": "MCU_" + port, "2": z})
 part("R32", "R", "10k", {"1": "VSYS", "2": "RESET"})
@@ -192,8 +193,8 @@ part("C15", "C", "100n", {"1": "VSYS", "2": "GND"})
 
 # Rev H additions: 28-pin GAL26CV12/26V12 support
 part("U9", "74HC595", "74HC595", {"14": "SR_CHAIN", "11": "SPI_SCK", "12": "SR_RCLK", "13": "SR_OE", "10": "VSYS", "16": "VSYS", "8": "GND",
-     "15": "U9_Q0", "1": "ZIF13", "2": "ZIF14", "3": "BOOST_EN", "4": "GND12_EN", "5": "GND21_EN", "6": "VCC28_EN", "7": "VCC7_EN", "9": None},
-     "Rev H: chained from U2 Q7'")
+     "15": "U9_Q0", "1": "ZIF13", "2": "ZIF14", "3": "BOOST_EN", "4": "GND12_EN", "5": "GND21_EN", "6": "VCC28_EN", "7": "VCC7_EN", "9": "SR_CHAIN2"},
+     "Rev H: chained from U2 Q7'; Rev I: Q7' to J5 pin 15")
 part("C19", "C", "100n", {"1": "VSYS", "2": "GND"}, "Rev H: U9 decoupling")
 part("Q4", "NMOS_GSD", "AO3400", {"1": "Q4_G", "3": "ZIF12", "2": "GND"}, "Rev H: ZIF12 ground switch (24-pin)")
 part("Q5", "NMOS_GSD", "AO3400", {"1": "Q5_G", "3": "ZIF21", "2": "GND"}, "Rev H: ZIF21 ground switch (28-pin)")
@@ -211,6 +212,12 @@ part("R45", "R", "100", {"1": "MCU_PA3", "2": "ZIF15"})
 part("R46", "R", "10k", {"1": "ZIF16", "2": "GND"})
 part("R47", "R", "10k", {"1": "ZIF28", "2": "GND"})
 
+# Rev I addition: J5 expansion header
+part("J5", "Conn_2x08", "Expansion 2x8", {"1": "VPP", "2": "GND", "3": "VCC_SKT", "4": "GND", "5": "VSYS", "6": "GND",
+     "7": "+5V", "8": "GND", "9": "SPI_SCK", "10": "GND", "11": "SPI_MOSI", "12": "SPI_MISO",
+     "13": "SR_RCLK", "14": "SR_OE", "15": "SR_CHAIN2", "16": "GND"},
+     "Rev I: expansion header for adapter boards; see docs/expansion.md")
+
 # Rev G additions
 part("U8", "LDL1117S33", "LDL1117S33R", {"3": "+5V", "1": "GND", "2": "+3V3"}, "Rev G: 3.3 V LDO, SOT-223 (tab = VOUT)")
 part("C17", "C", "1u", {"1": "+5V", "2": "GND"}, "Rev G")
@@ -220,7 +227,7 @@ part("J4", "Conn_2x03", "VSYS select 2x3", {"1": "+5V", "3": "VSYS", "5": "+3V3"
 
 # ---------------------------------------------------------------- placement (mm, A2 landscape)
 PLACE = {
-    "U9": (300, 60), "Q4": (540, 300), "Q5": (540, 330), "Q6": (470, 300), "Q7": (470, 330),
+    "U9": (300, 60), "J5": (330, 300), "Q4": (540, 300), "Q5": (540, 330), "Q6": (470, 300), "Q7": (470, 330),
     "U1": (70, 75), "U2": (200, 60), "U3": (200, 125), "U7": (470, 245), "J1": (430, 70),
     "J2": (40, 245), "J3": (40, 300), "U4": (180, 200), "U6": (180, 260), "Q2": (260, 260), "Q3": (260, 295), "Q1": (380, 205),
     "U8": (90, 360), "J4": (200, 360),
@@ -273,7 +280,7 @@ for ref, (lib, val, pins, desc) in P.items():
         f" (property \"Datasheet\" \"\" (at {f(X)} {f(Y)} 0) {EFFH})"
         f" (property \"Description\" {q(desc)} (at {f(X)} {f(Y)} 0) {EFFH})"
         f" {pinuuids}"
-        f" (instances (project \"GAL_Programmer_RevG\" (path {q('/' + ROOT)} (reference {q(ref)}) (unit 1)))))")
+        f" (instances (project \"J48_RevI\" (path {q('/' + ROOT)} (reference {q(ref)}) (unit 1)))))")
     for num, net in pins.items():
         _, pname, px, py, ang, ln = libpins[num]
         sx, sy = X + px, Y - py          # library y is up, sheet y is down
@@ -293,8 +300,8 @@ for ref, (lib, val, pins, desc) in P.items():
 def note(x, y, t, size=1.27):
     items.append(f"(text {q(t)} (exclude_from_sim no) (at {f(x)} {f(y)} 0) (effects (font (size {size} {size})) (justify left bottom)) (uuid {q(U())}))")
 
-note(15, 18, "J48 GAL / PAL Programmer (AVR16DU28) - Rev H: ZIF-28, GAL26CV12/26V12 head-aligned", 2.54)
-note(15, 24, "Connectivity is by net label on each pin stub. Footprints are not assigned. Generated from the Rev H netlist; run ERC after opening.")
+note(15, 18, "J48 GAL / PAL Programmer (AVR16DU28) - Rev I: J5 expansion header", 2.54)
+note(15, 24, "Connectivity is by net label on each pin stub. Footprints are not assigned. Generated from the Rev I netlist; run ERC after opening.")
 note(255, 365, "ZIF-28 switching (new in Rev H): U9 595 drives SCLK/SDIN/STB, BOOST_EN and the GND/VCC switches. All switches off at reset.")
 note(15, 340, "Logic supply select (new in Rev G): VSYS = 5 V or 3.3 V")
 note(15, 395,
@@ -304,8 +311,8 @@ note(15, 395,
      "Rev G value changes: U3 MCP4821 at 1x gain (GA = 1); R26 75k (VPP = DAC x 8.5); R16 68k with the 2.500 V ADC reference;\n"
      "Q1 must be logic-level (AO3400); at 3.3 V keep SPI SCK <= 8 MHz for the 74HC595.")
 
-title = ("(title_block (title \"J48 GAL / PAL Programmer - AVR16DU28\") (date \"2026-10-17\") (rev \"H\")"
-         " (comment 1 \"ZIF-28; 5 V / 3.3 V logic supply selected by J4\") (comment 2 \"ZIF pin map derived from Afterburner (ole00)\"))")
+title = ("(title_block (title \"J48 GAL / PAL Programmer - AVR16DU28\") (date \"2026-10-18\") (rev \"I\")"
+         " (comment 1 \"ZIF-28; J4 5 V / 3.3 V; J5 expansion header\") (comment 2 \"ZIF pin map derived from Afterburner (ole00)\"))")
 used = sorted({P[r][0] for r in P})
 doc = ("(kicad_sch (version 20250114) (generator \"eeschema\") (generator_version \"9.0\")"
        f" (uuid {q(ROOT)}) (paper \"A2\") {title}"
